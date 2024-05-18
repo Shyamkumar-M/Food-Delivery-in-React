@@ -5,14 +5,23 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 import burger from './media/burger.webp';
-import pizza from './media/pizza.webp'; // Importing another image for demonstration
-import salad from './media/biryani.webp'; // Importing another image for demonstration
-
+import pizza from './media/pizza.webp';
+import roti from './media/roti.webp';
+import salad from './media/biryani.webp';
+import idly from './media/idly.webp';
+import Dosa from './media/Dosa.webp';
+import paratha from './media/paratha.webp';
+import noodles from './media/noodles.webp';
 const App = () => {
   const [menuItems] = useState([
     { id: 1, name: 'Burger', price: 5.99, image: burger },
     { id: 2, name: 'Pizza', price: 8.99, image: pizza },
     { id: 3, name: 'Biryani', price: 4.99, image: salad },
+    { id: 4, name: 'Roti', price: 2.99, image: roti},
+    { id: 5, name: 'Idly', price: 1.99, image: idly},
+    { id: 6, name: 'Dosa', price: 3.99, image: Dosa},
+    { id: 7, name: 'Paratha', price: 2.99, image: paratha},
+    { id: 8, name: 'Noodles', price: 5.99, image: noodles},
   ]);
 
   const [cartItems, setCartItems] = useState([]);

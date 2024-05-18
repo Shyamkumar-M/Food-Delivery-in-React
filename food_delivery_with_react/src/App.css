@@ -7,7 +7,7 @@ body {
 }
 
 .app-header {
-  background-color: #282c34;
+  background-color: #fc8019;
   padding: 20px;
   color: white;
   display: flex;
@@ -24,6 +24,10 @@ body {
   cursor: pointer;
   display: flex;
   align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  color: #fc8019;
+  padding: 10px;
 }
 
 .cart-icon span {
@@ -67,7 +71,7 @@ body {
 }
 
 .quantity-control button {
-  background-color: #61dafb;
+  background-color: #fc8019;
   border: none;
   padding: 5px;
   cursor: pointer;
@@ -87,7 +91,7 @@ body {
   background: none;
   border: none;
   cursor: pointer;
-  color: red;
+  color: #fc8019;
   padding: 5px;
 }
 
@@ -126,7 +130,7 @@ body {
 }
 
 button {
-  background-color: #61dafb;
+  background-color: #fc8019;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
@@ -135,5 +139,5 @@ button {
 }
 
 button:hover {
-  background-color: #21a1f1;
+  background-color: white;
 }
